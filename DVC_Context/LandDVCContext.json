@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@vocab": "https://hardik12-amnex.github.io/DVC_Context/",
+        "schema": "http://schema.org/",
+        "farmerId": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmerId",
+            "@type": "schema:Text"
+        },
+        "farmerName": {
+            "@id": "schema:name",
+            "@type": "schema:Text"
+        },
+        "identifierName": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/identifierName",
+            "@type": "schema:Text"
+        },
+        "gender": {
+            "@id": "schema:gender",
+            "@type": "schema:Text"
+        },
+        "dob": {
+            "@id": "schema:birthDate",
+            "@type": "schema:DateTime"
+        },
+        "residenceAddress": {
+            "@id": "schema:address",
+            "@type": "schema:Text"
+        },
+        "farmerPhoto": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmerPhoto",
+            "@type": "schema:URL"
+        },
+      "farmId": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/farmId",
+            "@type": "schema:Text"
+        },
+        "district": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/district",
+            "@type": "schema:Text"
+        },
+        "subDistrict": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/subDistrict",
+            "@type": "schema:Text"
+        },
+        "village": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/village",
+            "@type": "schema:Text"
+        },
+        "surveyNumber": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/surveyNumber",
+            "@type": "schema:Text"
+        },
+        "area": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/area",
+            "@type": "schema:Text"
+        },
+        "asssingedArea": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/asssingedArea",
+            "@type": "schema:Text"
+        },
+        "ownerType": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/ownerType",
+            "@type": "schema:Text"
+        },
+        "ownerShareType": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/ownerShareType",
+            "@type": "schema:Text"
+        },
+        "issuanceDate": {
+            "@id": "schema:dateIssued",
+            "@type": "schema:DateTime"
+        },
+        "dvcType": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/dvcType",
+            "@type": "schema:Text"
+        }
+    }
+}
