@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@vocab": "https://hardik12-amnex.github.io/DVC_Context/",
+        "schema": "http://schema.org/",
+        "farmerId": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmerId",
+            "@type": "schema:Text"
+        },
+        "farmId": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmId",
+            "@type": "schema:Text"
+        },
+        "farmerName": {
+            "@id": "schema:name",
+            "@type": "schema:Text"
+        },
+        "year": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/year",
+            "@type": "schema:Text"
+        },
+        "season": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/season",
+            "@type": "schema:Text"
+        },
+        "cropCode": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/cropCode",
+            "@type": "schema:Text"
+        },
+        "cropName": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/cropName",
+            "@type": "schema:Text"
+        },
+        "sownArea": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/sownArea",
+            "@type": "schema:Text"
+        },
+        "sowingDate": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/sowingDate",
+            "@type": "schema:Date"
+        },
+        "issuanceDate": {
+            "@id": "schema:dateIssued",
+            "@type": "schema:DateTime"
+        },
+        "dvcType": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/dvcType",
+            "@type": "schema:Text"
+        }
+    }
+}
