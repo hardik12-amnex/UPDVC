@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1"
+    ],
+    "id": "did:web:hardik12-amnex.github.io:UPDVC:9009283c-fe17-49e9-aa5f-3b3dd9013663",
+    "alsoKnownAs": [
+      "DepartmentofAgricultureUP",
+      "upagripardarshi.gov.in"
+    ],
+    "service": [],
+    "verificationMethod": [
+      {
+        "id": "did:web:hardik12-amnex.github.io:UPDVC:9009283c-fe17-49e9-aa5f-3b3dd9013663#key-0",
+        "type": "Ed25519VerificationKey2020",
+        "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+        "controller": "did:web:hardik12-amnex.github.io:UPDVC:9009283c-fe17-49e9-aa5f-3b3dd9013663",
+        "publicKeyMultibase": "z6MkpnAfWm1agTwdv21wHsfYYNAh7RgVRGycNC2oCmADpC2W"
+      }
+    ],
+    "authentication": [
+      "did:web:hardik12-amnex.github.io:UPDVC:9009283c-fe17-49e9-aa5f-3b3dd9013663#key-0"
+    ],
+    "assertionMethod": [
+      "did:web:hardik12-amnex.github.io:UPDVC:9009283c-fe17-49e9-aa5f-3b3dd9013663#key-0"
+    ]
+  }
