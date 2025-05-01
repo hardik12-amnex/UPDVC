@@ -1,0 +1,100 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@vocab": "https://hardik12-amnex.github.io/DVC_Context/",
+        "schema": "http://schema.org/",
+        "farmerId": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmerId",
+            "@type": "schema:Text"
+        },
+        "farmerName": {
+            "@id": "schema:name",
+            "@type": "schema:Text"
+        },
+        "identifierName": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/identifierName",
+            "@type": "schema:Text"
+        },
+        "gender": {
+            "@id": "schema:gender",
+            "@type": "schema:Text"
+        },
+        "dob": {
+            "@id": "schema:birthDate",
+            "@type": "schema:DateTime"
+        },
+        "residenceAddress": {
+            "@id": "schema:address",
+            "@type": "schema:Text"
+        },
+        "farmerPhoto": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmerPhoto",
+            "@type": "schema:URL"
+        },
+        "numberOfLandsOwnByFarmer": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/numberOfLandsOwnByFarmer",
+            "@type": "schema:URL"
+        },
+        "farmerCategory": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/farmerCategory",
+            "@type": "schema:URL"
+        },
+        "assetDvcDetails": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/landDvcDetails",
+            "@type": "schema:ItemList",
+            "@container": "@list"
+        },
+        "credentialId": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/credentialId",
+            "@type": "schema:Text"
+        },
+        "isLand": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/isLand",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "isCrop": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/isCrop",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "assetType": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/assetType",
+            "@type": "schema:Text"
+        },
+        "qrUrl": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/qrUrl",
+            "@type": "schema:URL"
+        },
+        "data1": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/data1",
+            "@type": "schema:Text"
+        },
+        "data2": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/data2",
+            "@type": "schema:Text"
+        },
+        "data3": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/data3",
+            "@type": "schema:Text"
+        },
+        "data4": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/data4",
+            "@type": "schema:Text"
+        },
+        "data5": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/data5",
+            "@type": "schema:Text"
+        },
+        "issuanceDate": {
+            "@id": "schema:dateIssued",
+            "@type": "schema:DateTime"
+        },
+        "dvcType": {
+            "@id": "https://hardik12-amnex.github.io/DVC_Context/dvcType",
+            "@type": "schema:Text"
+        },
+        "disclaimer": {
+            "@id": "https://hardik12-amnex.github.io/MPDVC_Context/disclaimer",
+            "@type": "schema:Text"
+        }
+    }
+}
